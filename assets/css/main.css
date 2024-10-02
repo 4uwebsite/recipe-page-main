@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --Rose-800: hsl(332, 51%, 32%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--Stone-900);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Stone-100);
+}
+
+main {
+    max-width: 45em;
+    background-color: var(--White);
+    padding: 2.5em;
+    margin: 3em 2em;
+    border-radius: 1em;
+}
+
+.title-section {
+    margin-top: 1.7em;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.6em
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    color: var(--Brown-800);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 0.3em;
+}
+
+h3 {
+    color: var(--Rose-800);
+    font-weight: 500;
+}
+
+aside li {
+    margin-top: 0.5em;
+}
+
+aside span, .instructions-section span {
+    font-weight: 500;
+}
+
+li {
+    margin-left: 1.3em;
+    padding-left: 1.2em;
+}
+
+li::marker {
+    color: var(--Brown-800);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+aside {
+    background-color: var(--Rose-50);
+    padding: 1.5em;
+    border-radius: 0.6em;
+    margin: 1.5em 0;
+}
+
+.ingredients-section li {
+    margin-top: 0.5em;
+}
+
+.ingredients-section {
+    margin-bottom: 1.5em;
+}
+
+hr {
+    margin: 1.5em 0;
+    border: 1px solid var(--Stone-150);
+}
+
+.instructions-section h2 {
+    margin-bottom: 0.7em;
+}
+
+.instructions-section li {
+    margin-bottom: 0.7em;
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    text-align: left;
+    margin: 0.5em 0 1em 0;
+}
+
+tbody td {
+    border-bottom: 1px var(--Stone-150) solid;
+    padding: 0.7em 0 0.7em 2em;
+}
+
+tbody tr:last-child td {
+    border: none;
+}
+
+tr td:last-child {
+    color: var(--Brown-800);
+    font-weight: 500;
+}
