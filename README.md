@@ -20,10 +20,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Version Control
-1.0.3 - CSS Validation
-1.0.2 - HTML Validation
-1.0.1 - Initial Code Phase with Open Graph.
-1.0.0 - Initialized project.
+- 1.0.3 - CSS Validation
+- 1.0.2 - HTML Validation
+- 1.0.1 - Initial Code Phase with Open Graph.
+- 1.0.0 - Initialized project.
 
 ## Overview
 
