@@ -1,3 +1,5 @@
+/* GLOBAL - START */
+
 @font-face {
     font-family: 'Young Serif';
     src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
@@ -22,16 +24,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit';
-    font-size: 16px;
-    font-weight: 200;
-    color: var(--Stone-900);
 }
 
 body {
     display: flex;
     justify-content: center;
     background-color: var(--Stone-100);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--Stone-900);
 }
 
 main {
@@ -42,38 +44,27 @@ main {
     border-radius: 1em;
 }
     
-img {
+img, table {
     width: 100%;
-    border-radius: 0.6em
 }
 
 h1, h2 {
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
+    margin-bottom: 0.3em;
 }
 
 h1 {
     font-size: 2.5rem;
-    margin: 0.8em 0 0.3em 0;
+    margin-top: 0.8em;
 }
 
 h2 {
-    color: var(--Brown-800);
     font-size: 1.5rem;
     font-weight: 900;
-    margin-bottom: 0.3em;
 }
 
 h3 {
     color: var(--Rose-800);
-    font-weight: 500;
-}
-
-aside li {
-    margin-top: 0.5em;
-}
-
-aside span, .instructions-section span {
-    font-weight: 500;
 }
 
 li {
@@ -82,7 +73,6 @@ li {
 }
 
 li::marker {
-    color: var(--Brown-800);
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -90,33 +80,50 @@ li::marker {
 aside {
     background-color: var(--Rose-50);
     padding: 1.5em;
-    border-radius: 0.6em;
-    margin: 1.5em 0;
 }
 
-.ingredients-section li {
-    margin-top: 0.5em;
+hr {
+    border: 1px solid var(--Stone-150);
 }
+
+/* GLOBAL - END */
+
+
+
+/* CLASES & IDs - START */
 
 .ingredients-section {
     margin-bottom: 1.5em;
 }
 
-hr {
+/* CLASES & IDs - END */
+
+
+
+/* SPECIFIC - START */
+
+aside, hr {
     margin: 1.5em 0;
-    border: 1px solid var(--Stone-150);
 }
 
-.instructions-section h2 {
+aside li, .ingredients-section li {
+    margin-top: 0.5em;
+}
+
+aside span, .instructions-section span, h3 {
+    font-weight: 500;
+}
+
+.instructions-section h2, .instructions-section li {
     margin-bottom: 0.7em;
 }
 
-.instructions-section li {
-    margin-bottom: 0.7em;
+tr td:last-child {
+    font-weight: 500;
 }
 
-table {
-    width: 100%;
+tr td:last-child, h2, li::marker {
+    color: var(--Brown-800);
 }
 
 table caption {
@@ -133,7 +140,14 @@ tbody tr:last-child td {
     border: none;
 }
 
-tr td:last-child {
-    color: var(--Brown-800);
-    font-weight: 500;
+/* SPECIFIC - END */
+
+
+
+/* UTILITY - START */
+
+.box-border-radius {
+    border-radius: 0.6em
 }
+
+/* UTILITY - END */

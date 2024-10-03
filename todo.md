@@ -1,4 +1,4 @@
 [x] Initial Code phase. 
 [x] Validate Code. 
-[-] Refactor Code. 
+[x] Refactor Code. 
 [-] Mobile version.
