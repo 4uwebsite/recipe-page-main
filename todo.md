@@ -1,8 +1,8 @@
-[-] Using font-display: swap in your @font-face rule improves performance. 
-[-] CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/  
-[-] BEM naming: https://getbem.com/
-[x] H3-H2 change. 
-[x] Initial Code phase. 
-[x] Validate Code. 
-[x] Refactor Code. 
-[x] Mobile version.
+- [-] CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/  
+- [-] BEM naming: https://getbem.com/
+- [x] Using font-display: swap in your @font-face rule improves performance. 
+- [x] H3-H2 change. 
+- [x] Initial Code phase. 
+- [x] Validate Code. 
+- [x] Refactor Code. 
+- [x] Mobile version.
