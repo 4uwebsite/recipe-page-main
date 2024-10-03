@@ -20,6 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Version Control
+- 1.0.6 - Responsive.
 - 1.0.5 - CSS Refactoring.
 - 1.0.4 - HTML Refactoring.
 - 1.0.3 - CSS Validation.

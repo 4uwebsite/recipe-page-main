@@ -151,3 +151,30 @@ tbody tr:last-child td {
 }
 
 /* UTILITY - END */
+
+
+
+/* RESPONSIVE - START */
+
+@media screen and (max-width: 615px) {
+    /* screens with width below 615px */
+    body {
+        background-color: var(--White);
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    p, aside, section, hr {
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    }
+}
+
+/* RESPONSIVE - END */
